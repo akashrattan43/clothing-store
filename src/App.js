@@ -12,8 +12,8 @@ function App() {
   return (
     <div >
     <Switch>
-      <Route path='/' component={Homepage} />
-      <Route path='/hats' component={HatsPage} />
+      <Route exact path='/' component={Homepage} />
+      <Route path='/shop/hats' component={HatsPage} />
       {/* <Homepage /> */}
     </Switch>
     </div>
